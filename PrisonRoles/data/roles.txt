@@ -1,0 +1,126 @@
+-- PRISON ROLES CONFIGURATION
+-- 12+ unique roles for enhanced gameplay
+
+=== SECURITY & PROTECTION STAFF ===
+
+ROLE: Bodyguard
+DESCRIPTION: Elite protection specialist for VIPs and high-risk prisoners
+SALARY: 3500
+SKILLS: Combat +8, Awareness +9, Leadership +7
+UNIFORM: Black tactical gear with badge
+RESPONSIBILITIES: Protect designated targets, handle threats, escort convoys
+BONUS_EFFECT: +15% security rating in assigned area
+
+ROLE: Military Police Officer
+DESCRIPTION: Armed enforcement with military training for major incidents
+SALARY: 2800
+SKILLS: Combat +8, Tactics +7, Authority +8
+UNIFORM: Military camouflage with insignia
+RESPONSIBILITIES: Respond to riots, coordinate lockdowns, tactical operations
+BONUS_EFFECT: +20% response time to emergencies, +10% prisoner fear
+
+=== SPIRITUAL & SUPPORT STAFF ===
+
+ROLE: Priest/Chaplain
+DESCRIPTION: Spiritual counselor for prisoner rehabilitation
+SALARY: 2200
+SKILLS: Counseling +9, Empathy +10, De-escalation +8
+UNIFORM: Religious vestments with chaplain cross
+RESPONSIBILITIES: Conduct services, offer spiritual guidance, comfort dying prisoners
+BONUS_EFFECT: +5% prisoner morale, -8% suicide rates
+
+ROLE: Counselor/Psychologist
+DESCRIPTION: Mental health professional for behavior management
+SALARY: 2600
+SKILLS: Psychology +10, Empathy +9, Documentation +8
+UNIFORM: Professional attire with ID badge
+RESPONSIBILITIES: Assess behavior, develop treatment plans, conduct sessions
+BONUS_EFFECT: +8% prisoner reform rate, -15% violence
+
+=== EDUCATION & DEVELOPMENT ===
+
+ROLE: Teacher/Instructor
+DESCRIPTION: Education professional for prisoner skill development
+SALARY: 2400
+SKILLS: Teaching +10, Subject Expertise +8, Patience +9
+UNIFORM: Professional educator attire
+RESPONSIBILITIES: Conduct classes, manage workshops, track progress
+BONUS_EFFECT: +12% prisoner education rate, +10% job placement
+
+ROLE: Trade Instructor
+DESCRIPTION: Specialist in vocational training (mechanics, construction, etc.)
+SALARY: 2500
+SKILLS: Technical +10, Hands-on Training +9, Safety +8
+UNIFORM: Work uniform with tool belt
+RESPONSIBILITIES: Teach trades, manage equipment, ensure safety
+BONUS_EFFECT: +15% prisoner skills, +8% employment success
+
+=== MAINTENANCE & OPERATIONS ===
+
+ROLE: Maintenance Inspector
+DESCRIPTION: Facility maintenance and infrastructure specialist
+SALARY: 2000
+SKILLS: Maintenance +9, Technical +8, Planning +7
+UNIFORM: Orange maintenance uniform
+RESPONSIBILITIES: Inspect facilities, schedule repairs, prevent breakdowns
+BONUS_EFFECT: -10% facility damage, +5% efficiency
+
+ROLE: Electrician
+DESCRIPTION: Electrical systems specialist for power and security
+SALARY: 2300
+SKILLS: Electrical +10, Safety +9, Problem-solving +8
+UNIFORM: Yellow safety vest with tools
+RESPONSIBILITIES: Maintain power, manage electrified fences, troubleshoot systems
+BONUS_EFFECT: +8% facility reliability, -15% power failures
+
+ROLE: IT Specialist
+DESCRIPTION: Information technology and surveillance systems manager
+SALARY: 2700
+SKILLS: Technology +10, Security +9, Troubleshooting +8
+UNIFORM: Corporate tech attire
+RESPONSIBILITIES: Manage cameras, monitors, comms systems, data security
+BONUS_EFFECT: +20% camera coverage, +10% security system efficiency
+
+=== MEDICAL STAFF ===
+
+ROLE: Medical Officer/Doctor
+DESCRIPTION: Primary healthcare provider for prison population
+SALARY: 3200
+SKILLS: Medicine +10, Diagnosis +10, Authority +8
+UNIFORM: White medical coat with stethoscope
+RESPONSIBILITIES: Treat illnesses, manage emergencies, provide preventive care
+BONUS_EFFECT: +15% prisoner health, -20% death rate, -10% disease spread
+
+ROLE: Nurse/Medical Assistant
+DESCRIPTION: Support healthcare provider in medical operations
+SALARY: 1900
+SKILLS: Medicine +8, Caregiving +9, Efficiency +8
+UNIFORM: Blue medical scrubs
+RESPONSIBILITIES: Assist doctors, manage medications, monitor patients
+BONUS_EFFECT: +8% prisoner recovery rate, +5% health management
+
+=== SPECIAL PRISONER ROLES ===
+
+ROLE: Prisoner - Gang Leader
+DESCRIPTION: Powerful prisoner with influence over others
+STATUS: High risk, influential
+ABILITIES: Command loyalty, organize activities, potential for violence
+CHALLENGE: Difficult to control, can incite riots
+
+ROLE: Prisoner - Informant
+DESCRIPTION: Cooperative prisoner providing intelligence
+STATUS: Low security threat
+ABILITIES: Report on gangs, provide security warnings
+BENEFIT: +10% security intelligence
+
+ROLE: Prisoner - Mentor/Reformer
+DESCRIPTION: Reformed prisoner helping rehabilitate others
+STATUS: Trustworthy, helpful
+ABILITIES: Influence positive behavior, reduce violence
+BENEFIT: +8% prisoner reformation rate, improved morale
+
+ROLE: Prisoner - Maintenance Crew
+DESCRIPTION: Prisoner assigned to facility maintenance
+STATUS: Working prisoner
+ABILITIES: Perform repairs, maintain cleanliness
+BENEFIT: -10% maintenance costs, +5% facility condition
