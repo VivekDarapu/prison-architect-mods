@@ -1,0 +1,59 @@
+BEGIN Object
+    Name                Woodworking
+    Description         "Woodworking workshop with various cutting and shaping tools"
+    Width               3
+    Height              3
+    Sprite              WoodworkingSprite
+    MoveSpeedFactor     0.7
+    BlockedWhenInUse    true
+    RoomType            Workshop
+    ConstructionTime    30
+    Cost                2500
+    NeedsElectricity    true
+    Multiplier          2.0
+END
+
+BEGIN Object
+    Name                Electronics
+    Description         "Electronics repair and assembly workshop"
+    Width               2
+    Height              2
+    Sprite              ElectronicsSprite
+    MoveSpeedFactor     0.5
+    BlockedWhenInUse    true
+    RoomType            Workshop
+    ConstructionTime    25
+    Cost                3000
+    NeedsElectricity    true
+    Multiplier          2.5
+END
+
+BEGIN Object
+    Name                Metalworking
+    Description         "Heavy metalworking shop with forges and anvils"
+    Width               4
+    Height              3
+    Sprite              MetalworkingSprite
+    MoveSpeedFactor     0.6
+    BlockedWhenInUse    true
+    RoomType            Workshop
+    ConstructionTime    40
+    Cost                3500
+    NeedsElectricity    true
+    Multiplier          2.2
+END
+
+BEGIN Object
+    Name                Textile
+    Description         "Textile workshop with looms and sewing equipment"
+    Width               2
+    Height              3
+    Sprite              TextileSprite
+    MoveSpeedFactor     0.8
+    BlockedWhenInUse    true
+    RoomType            Workshop
+    ConstructionTime    20
+    Cost                1800
+    NeedsElectricity    false
+    Multiplier          1.8
+END
