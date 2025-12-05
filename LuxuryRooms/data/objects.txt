@@ -1,0 +1,57 @@
+BEGIN Object
+    Name               LuxuryMarbleFloor
+    Description        "Elegant marble flooring for premium areas"
+    Width              1
+    Height             1
+    Sprite             LuxuryMarbleFloorSprite
+    MoveSpeedFactor    1.0
+    BlockedWhenInUse   false
+    RoomType           Cell
+    ConstructionTime   15
+    Cost               800
+    NeedsElectricity   false
+END
+
+BEGIN Object
+    Name               CrystalChandelier
+    Description        "Luxury crystal chandelier lighting fixture"
+    Width              1
+    Height             1
+    Sprite             CrystalChandelierSprite
+    MoveSpeedFactor    1.0
+    BlockedWhenInUse   false
+    RoomType           Canteen
+    ConstructionTime   20
+    Cost               1500
+    NeedsElectricity   true
+    Multiplier         1.5
+END
+
+BEGIN Object
+    Name               LuxuryBed
+    Description        "Premium memory foam prison bed with silk sheets"
+    Width              2
+    Height             2
+    Sprite             LuxuryBedSprite
+    MoveSpeedFactor    0.8
+    BlockedWhenInUse   true
+    RoomType           Cell
+    ConstructionTime   25
+    Cost               2000
+    NeedsElectricity   false
+    Multiplier         2.0
+END
+
+BEGIN Object
+    Name               PremiumDesk
+    Description        "Handcrafted designer work desk for offices"
+    Width              2
+    Height             1
+    Sprite             PremiumDeskSprite
+    MoveSpeedFactor    0.9
+    BlockedWhenInUse   true
+    RoomType           Visitation
+    ConstructionTime   20
+    Cost               1200
+    NeedsElectricity   false
+END
