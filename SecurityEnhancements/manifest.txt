@@ -1,0 +1,4 @@
+NAME SecurityEnhancements
+DESCRIPTION Advanced security systems and surveillance equipment
+VERSION 1.0
+AUTHOR VivekDarapu
