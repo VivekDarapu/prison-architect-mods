@@ -1,0 +1,5 @@
+Name           "LuxuryRooms Premium"
+Author         "Vivek Darapu"
+Description    "High-end decorative objects and furniture for luxury prison facilities. Includes marble flooring, crystal chandeliers, luxury beds, and designer desks."
+Version        "v1.0"
+Date           "2025-12-06"
