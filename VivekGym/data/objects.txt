@@ -1,0 +1,76 @@
+BEGIN Object
+    Name               VivekTreadmill
+    Description        "High-end running treadmill with digital display"
+    Width              2
+    Height             1
+    Sprite             VivekTreadmillSprite
+    MoveSpeedFactor    1.0
+    BlockedWhenInUse   true
+    RoomType           Gym
+    ConstructionTime   20
+    Cost               1200
+    NeedsElectricity   true
+    BreakdownChance    0.005
+    BreakdownTime      500
+    MinutesRequired    30
+    SkillMultiplier    1.5
+    SkillTrained       Fitness
+    Multiplier         2.0
+END
+
+BEGIN Object
+    Name               VivekWeightBench
+    Description        "Professional weight training bench with adjustable position"
+    Width              2
+    Height             2
+    Sprite             VivekWeightBenchSprite
+    MoveSpeedFactor    0.8
+    BlockedWhenInUse   true
+    RoomType           Gym
+    ConstructionTime   25
+    Cost               1500
+    NeedsElectricity   false
+    BreakdownChance    0.002
+    MinutesRequired    45
+    SkillMultiplier    2.0
+    SkillTrained       Strength
+    Multiplier         2.5
+END
+
+BEGIN Object
+    Name               VivekYogaMat
+    Description        "Premium yoga and meditation mat for mental health"
+    Width              1
+    Height             1
+    Sprite             VivekYogaMatSprite
+    MoveSpeedFactor    0.5
+    BlockedWhenInUse   true
+    RoomType           Gym
+    ConstructionTime   10
+    Cost               400
+    NeedsElectricity   false
+    BreakdownChance    0.001
+    MinutesRequired    20
+    SkillMultiplier    1.2
+    SkillTrained       Mind
+    Multiplier         1.8
+END
+
+BEGIN Object
+    Name               VivekResistanceBike
+    Description        "Stationary resistance cycling machine"
+    Width              2
+    Height             1
+    Sprite             VivekResistanceBikeSprite
+    MoveSpeedFactor    1.0
+    BlockedWhenInUse   true
+    RoomType           Gym
+    ConstructionTime   18
+    Cost               1100
+    NeedsElectricity   true
+    BreakdownChance    0.004
+    MinutesRequired    35
+    SkillMultiplier    1.6
+    SkillTrained       Fitness
+    Multiplier         2.2
+END
