@@ -1,0 +1,38 @@
+-- Workshop Prefab Room Layouts
+-- These define standard room layouts for advanced workshops
+
+BEGIN Prefab
+    Name                WoodworkingShop
+    Width               6
+    Height              6
+    Description         "Large woodworking workshop room"
+    Equipment           Woodworking, Woodworking, Workbench
+    Flooring            ConcreteFloor
+END
+
+BEGIN Prefab
+    Name                ElectronicsLab
+    Width               5
+    Height              4
+    Description         "Electronics assembly and repair lab"
+    Equipment           Electronics, ElectronicsWorkbench, SafetyEquipment
+    Flooring            AntiStaticFloor
+END
+
+BEGIN Prefab
+    Name                MetalShop
+    Width               7
+    Height              6
+    Description         "Heavy industrial metalworking facility"
+    Equipment           Metalworking, Anvil, Metalworking, CoolingBin
+    Flooring            HeavyDutyFloor
+END
+
+BEGIN Prefab
+    Name                TextileWorkshop
+    Width               5
+    Height              5
+    Description         "Textile production and dyeing workshop"
+    Equipment           Textile, Loom, Textile, DyeVat
+    Flooring            TextureFloor
+END
