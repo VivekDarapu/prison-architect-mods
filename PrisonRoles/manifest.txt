@@ -1,0 +1,9 @@
+NAME PrisonRoles
+DESCRIPTION Diverse staff and prisoner roles including bodyguards, priests, maintenance, military personnel
+VERSION 1.0
+AUTHOR VivekDarapu
+
+-- This mod adds 12+ unique roles to enhance gameplay
+-- Staff: Bodyguards, Priests, Teachers, Maintenance Inspectors, Medical Officers
+-- Support: Chaplains, Counselors, IT Specialists, Electricians
+-- Prisoners: Gang Leaders, Informants, Mentors, Reformed Prisoners
