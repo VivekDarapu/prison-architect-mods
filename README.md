@@ -1,7 +1,6 @@
 # Prison Architect Mods Collection
 
-A complete collection of 4 Prison Architect mods ready to copy-paste directly into your game.
-
+A complete collection of 5 Prison Architect mods ready to copy-paste directly into your game.
 ## 📦 Mods Included
 
 ### 1. **VivekGym** - Premium Fitness & Rehabilitation Equipment
@@ -32,6 +31,25 @@ A complete collection of 4 Prison Architect mods ready to copy-paste directly in
 - Security Checkpoint (2x2, Cost: 4500)
 - **Folder**: `SecurityEnhancements/`
 
+- ### 5. **PrisonRoles** - Enhanced Staff & Prisoner Role System
+
+- Bodyguard (High-risk protection, Cost: 2800)
+- Military Police Officer (Tactical enforcement, Cost: 2600)
+- Priest/Chaplain (Spiritual guidance, Salary: 1400)
+- Counselor (Psychological support, Salary: 1300)
+- Teacher (Education & development, Salary: 1500)
+- Trade Instructor (Vocational training, Salary: 1600)
+- Maintenance Inspector (Facility oversight, Salary: 1200)
+- Electrician (Technical maintenance, Salary: 1800)
+- IT Specialist (Tech infrastructure, Salary: 2000)
+- Medical Officer (Healthcare oversight, Salary: 2200)
+- Nurse (Patient care, Salary: 1100)
+- Gang Leader (Prisoner influence, Special)
+- Informant (Intelligence gathering, Special)
+- Mentor/Reformer (Rehabilitation, Special)
+- Maintenance Crew (Facility upkeep, Special)
+- **Folder**: `PrisonRoles/`
+
 ## 🚀 Quick Start Installation
 
 ### Step 1: Find Your Prison Architect Mods Folder
@@ -54,7 +72,7 @@ C:\Users\[YOUR_NAME]\AppData\Local\Introversion\Prison Architect\mods
 ### Step 2: Copy Mod Folders
 
 1. Clone or download this repository
-2. Copy each mod folder (`VivekGym`, `LuxuryRooms`, `AdvancedWorkshops`, `SecurityEnhancements`) into your mods directory
+2. Copy each mod folder (`VivekGym`, `LuxuryRooms`, `AdvancedWorkshops`, `SecurityEnhancements`) into your mods directory, `PrisonRoles`
 3. Each mod is self-contained with all necessary files
 
 ### Step 3: Enable Mods in Game
@@ -156,7 +174,7 @@ Each mod can be modified:
 
 ## ✨ Features
 
-- ✅ All 4 mods ready to copy-paste
+- ✅ AllAll 5 mods4 mods ready to copy-paste
 - ✅ Complete manifest.txt configurations
 - ✅ Detailed objects.txt with all properties
 - ✅ Optional Lua behavior scripts
