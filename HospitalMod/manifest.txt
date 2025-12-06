@@ -1,0 +1,10 @@
+HospitalMod/manifest.txtName           "Advanced Hospital & Diagnostics"
+Author         "Vivek Darapu"
+Description    "Comprehensive hospital mod with diagnostic equipment, mood uplifter machine, and advanced prisoner analysis capabilities"
+Version        "1.0"
+GameVersion    "1.0"
+RequiredScript "base.lua"
+
+-- Hospital room and medical equipment
+-- Includes Mood Uplifter machine for comprehensive prisoner wellness
+-- Diagnostic systems for behavioral and health analysis
