@@ -1,0 +1,48 @@
+Sprite MetalDetectorGraphic
+  Image metal_detector.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite AdvancedCameraGraphic
+  Image advanced_camera.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite WireTapGraphic
+  Image wire_tap.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite RemoteDoorLockGraphic
+  Image remote_door_lock.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite SecurityGuardGraphic
+  Image security_guard.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite PatrolBotGraphic
+  Image patrol_bot.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite TurretGraphic
+  Image turret.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
