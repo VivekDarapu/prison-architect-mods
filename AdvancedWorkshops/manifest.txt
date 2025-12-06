@@ -1,4 +1,4 @@
-NAME AdvancedWorkshops
-DESCRIPTION Advanced workshop types with specialized equipment for different crafts
-VERSION 1.0
-AUTHOR VivekDarapu
+Name "Advanced Workshops & Manufacturing"
+Author "Vivek Darapu"
+Description "Advanced workshop systems with specialized equipment for diverse crafts, including industrial manufacturing and prisoner work programs"
+Version "1.0"
