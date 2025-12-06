@@ -1,0 +1,53 @@
+-- HospitalMod Objects Configuration
+-- Advanced hospital equipment and Mood Uplifter machine
+
+BEGIN Object
+    Name                HospitalBed
+    Width               2
+    Height              2
+    Cost                1200
+    Description         Standard hospital bed for patient recovery
+    Category            Hospital
+    Sprite              HospitalBed
+    ConstructionTime    100
+    Power               60
+END
+
+BEGIN Object
+    Name                DiagnosticScanner
+    Width               2
+    Height              2
+    Cost                2600
+    Description         Advanced diagnostic scanner for prisoner health analysis
+    Category            Hospital
+    Sprite              DiagnosticScanner
+    ConstructionTime    150
+    Power               200
+    OnConstruct         diagnostic_initialize
+END
+
+BEGIN Object
+    Name                MedicalRecordsTerminal
+    Width               1
+    Height              1
+    Cost                1400
+    Description         Digital terminal for medical records and patient data
+    Category            Hospital
+    Sprite              RecordsTerminal
+    ConstructionTime    80
+    Power               100
+END
+
+BEGIN Object
+    Name                MoodUplifterMachine
+    Width               2
+    Height              2
+    Cost                3100
+    Description         Advanced machine that improves all prisoner needs (comfort, recreation, spirituality)
+    Category            Hospital
+    Sprite              MoodUplifter
+    ConstructionTime    180
+    Power               220
+    OnConstruct         mood_uplifter_setup
+    RoomRequired        Hospital
+END
