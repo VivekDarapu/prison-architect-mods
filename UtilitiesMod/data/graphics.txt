@@ -1,0 +1,55 @@
+Sprite CoalPowerPlantGraphic
+  Image coal_power_plant.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite TrainGraphic
+  Image train.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite TrainTrackGraphic
+  Image train_track.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite CoalStorageGraphic
+  Image coal_storage.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite SolarPanelGraphic
+  Image solar_panel.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite PowerTransformerGraphic
+  Image power_transformer.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite WaterPumpGraphic
+  Image water_pump.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite WaterTankGraphic
+  Image water_tank.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
