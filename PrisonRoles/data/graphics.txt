@@ -1,0 +1,69 @@
+Sprite PriestGraphic
+  Image priest.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite GangLeaderGraphic
+  Image gang_leader.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite InformerGraphic
+  Image informer.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite MentorGraphic
+  Image mentor.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite JailbirdGraphic
+  Image jailbird.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite ReformedPrisonerGraphic
+  Image reformed_prisoner.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite DrugDealerGraphic
+  Image drug_dealer.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite ViolentOffenderGraphic
+  Image violent_offender.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite NoviceGraphic
+  Image novice.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite ArtisanGraphic
+  Image artisan.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
