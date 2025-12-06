@@ -1,0 +1,91 @@
+-- SecurityEnhancements Objects Configuration
+-- Advanced security systems with auto-connect features
+
+BEGIN Object
+    Name                FacialRecognitionScanner
+    Width               1
+    Height              1
+    Cost                2400
+    Description         Advanced facial recognition for prisoner identification
+    Category            Security
+    Sprite              FacialScanner
+    ConstructionTime    100
+    Power               120
+END
+
+BEGIN Object
+    Name                MotionDetectorUnit
+    Width               1
+    Height              1
+    Cost                1450
+    Description         Infrared motion detector with auto-zone linking
+    Category            Security
+    Sprite              MotionDetector
+    ConstructionTime    80
+    Power               80
+    OnConstruct         auto_detect_setup
+END
+
+BEGIN Object
+    Name                ReinforcedSecurityDoor
+    Width               1
+    Height              2
+    Cost                3200
+    Description         Reinforced door with remote control capabilities
+    Category            Doors
+    Sprite              ReinforcedDoor
+    ConstructionTime    140
+    Power               100
+    OnConstruct         door_remote_setup
+END
+
+BEGIN Object
+    Name                SecurityCheckpoint
+    Width               2
+    Height              2
+    Cost                4000
+    Description         Advanced security checkpoint with automated scanning
+    Category            Security
+    Sprite              Checkpoint
+    ConstructionTime    160
+    Power               180
+END
+
+BEGIN Object
+    Name                AutoWiretapConsole
+    Width               2
+    Height              1
+    Cost                2600
+    Description         Auto-connecting wiretap system for all phones on network
+    Category            Security
+    Sprite              WiretapConsole
+    ConstructionTime    120
+    Power               140
+    OnConstruct         auto_wiretap_network
+END
+
+BEGIN Object
+    Name                WirelessCCTVHub
+    Width               1
+    Height              1
+    Cost                2200
+    Description         Auto-pairing wireless camera hub (30 tile radius)
+    Category            Security
+    Sprite              CCTVHub
+    ConstructionTime    90
+    Power               110
+    OnConstruct         auto_camera_pairing
+END
+
+BEGIN Object
+    Name                RemoteDoorController
+    Width               1
+    Height              1
+    Cost                1800
+    Description         Advanced remote door control system with auto-linking
+    Category            Security
+    Sprite              RemoteController
+    ConstructionTime    100
+    Power               95
+    OnConstruct         auto_door_linking
+END
