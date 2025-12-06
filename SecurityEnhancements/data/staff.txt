@@ -1,0 +1,35 @@
+BEGIN Staff
+  ID SecurityGuardMetalDetector
+  Title "Security Guard - Metal Detector"
+  Description "Guards equipped with metal detectors for enhanced weapons detection"
+  Salary 1600
+  Skills Security:11 Authority:10 Detection:10
+  Uniform "Dark blue metal detector uniform"
+  CanRecruit true
+  BonusEffect "+30% weapon detection, +20% security"
+  Priority 8
+END
+
+BEGIN Staff
+  ID K9SecurityHandler
+  Title "K9 Security Handler"
+  Description "Handler for security dogs that detect weapons and contraband"
+  Salary 1850
+  Skills Security:10 Animals:11 Authority:9
+  Uniform "Green K9 handler uniform"
+  CanRecruit true
+  BonusEffect "+35% contraband detection, +25% security"
+  Priority 8
+END
+
+BEGIN Staff
+  ID AdvancedSearchOfficer
+  Title "Advanced Search Officer"
+  Description "Performs advanced searches with metal detection and body scanning"
+  Salary 1750
+  Skills Security:12 Authority:9 Detection:11
+  Uniform "Black advanced search uniform"
+  CanRecruit true
+  BonusEffect "+28% weapon/contraband detection"
+  Priority 7
+END
