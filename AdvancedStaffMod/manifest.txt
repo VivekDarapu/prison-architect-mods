@@ -1,8 +1,4 @@
-ID: AdvancedStaffMod
-Name: Advanced Staff Module
-Description: Adds 20+ new staff types with specialized roles and mood suppression abilities by need type
-Version: 1.0
-Author: VivekDarapu
-ModType: Gameplay
-RequiredVersion: 1.0
-Includes: data/staff.txt
+Name "Advanced Staff Module"
+Author "Vivek Darapu"
+Description "Adds 20+ new staff types with specialized roles and mood suppression abilities by need type"
+Version "1.0"
