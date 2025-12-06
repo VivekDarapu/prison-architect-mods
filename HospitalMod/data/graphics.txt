@@ -1,0 +1,62 @@
+Sprite MoodUplifterGraphic
+  Image mood_uplifter.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite DiagnosticChairGraphic
+  Image diagnostic_chair.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite AdvancedScannerGraphic
+  Image advanced_scanner.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite TreatmentBedGraphic
+  Image treatment_bed.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite MedicalCabinetGraphic
+  Image medical_cabinet.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite AnalysisLabGraphic
+  Image analysis_lab.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite PhysicalTherapyEquipGraphic
+  Image physical_therapy_equip.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite PsychEvaluationChairGraphic
+  Image psych_evaluation_chair.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite DecontaminationChamberGraphic
+  Image decontamination_chamber.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
