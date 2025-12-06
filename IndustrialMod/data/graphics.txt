@@ -1,0 +1,43 @@
+-- IndustrialMod Graphics Configuration
+-- Sprite mappings for all industrial objects
+
+Sprite CoalPowerPlantSprite
+  Image coal_power_plant.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite SteelMillSprite
+  Image steel_mill.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite CocaColaFactorySprite
+  Image coca_cola_factory.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite TrainTrackSprite
+  Image train_track.png
+  Width 64
+  Height 64
+END
+
+Sprite TrainStationSprite
+  Image train_station.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite TrainCarriageSprite
+  Image train_carriage.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
