@@ -1,9 +1,4 @@
-UtilitiesMod/manifest.txtName           "Advanced Utilities & Comfort Systems"
-Author         "Vivek Darapu"
-Description    "Comprehensive utility systems for food service, power generation, comfort facilities, and laundry management in prisons"
-Version        "1.0"
-GameVersion    "1.0"
-RequiredScript "base.lua"
-
--- Power, food, laundry and comfort utilities
--- Includes advanced kitchen equipment, power generators, laundry systems, and entertainment
+Name "Advanced Utilities & Comfort Systems"
+Author "Vivek Darapu"
+Description "Comprehensive utility systems for food service, power generation, comfort facilities, and laundry management for enhanced prison operations"
+Version "1.0"
