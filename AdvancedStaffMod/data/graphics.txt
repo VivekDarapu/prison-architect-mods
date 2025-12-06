@@ -1,0 +1,149 @@
+-- AdvancedStaffMod Graphics - 21 Staff Types
+-- All staff sprites with unique color schemes
+
+Sprite BodyguardSprite
+  Image bodyguard.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite MilitaryPoliceSprite
+  Image military_police.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite PriestSprite
+  Image priest.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite CounselorSprite
+  Image counselor.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite TeacherSprite
+  Image teacher.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite TradeInstructorSprite
+  Image trade_instructor.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite MaintenanceInspectorSprite
+  Image maintenance_inspector.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite ElectricianSprite
+  Image electrician.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite ITSpecialistSprite
+  Image it_specialist.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite MedicalOfficerSprite
+  Image medical_officer.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite NurseSprite
+  Image nurse.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite SecurityGuardMDSprite
+  Image security_guard_md.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite WardenAssistantSprite
+  Image warden_assistant.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite ChaplainSprite
+  Image chaplain.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite PsychologistSprite
+  Image psychologist.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite ChefManagerSprite
+  Image chef_manager.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite SanitationSupervisorSprite
+  Image sanitation_supervisor.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite TrainingOfficerSprite
+  Image training_officer.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite RehabilitationSpecialistSprite
+  Image rehabilitation_specialist.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite SecurityConsultantSprite
+  Image security_consultant.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite FacilitiesManagerSprite
+  Image facilities_manager.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
