@@ -1,0 +1,251 @@
+BEGIN Staff
+  ID CalmingOfficer
+  Title "Calming Officer"
+  Description "Specialized officer trained to suppress anxiety and stress"
+  Salary 1800
+  Skills Psychology:12 Communication:10 Authority:8
+  Uniform "Purple calming uniform"
+  CanRecruit true
+  BonusEffect "-25% prisoner anxiety"
+  Priority 7
+END
+
+BEGIN Staff
+  ID PhysicalTherapist
+  Title "Physical Therapist"
+  Description "Healthcare professional who reduces physical discomfort and pain"
+  Salary 1900
+  Skills Medicine:11 Physical:10 Expertise:9
+  Uniform "Green therapy uniform"
+  CanRecruit true
+  BonusEffect "-20% physical pain, +15% prisoner fitness"
+  Priority 7
+END
+
+BEGIN Staff
+  ID MentalHealthCounselor
+  Title "Mental Health Counselor"
+  Description "Counselor specializing in mental health support"
+  Salary 2000
+  Skills Psychology:13 Communication:11 Expertise:10
+  Uniform "Blue counselor uniform"
+  CanRecruit true
+  BonusEffect "-30% mental health issues"
+  Priority 8
+END
+
+BEGIN Staff
+  ID HungerRelief
+  Title "Nutrition Specialist"
+  Description "Ensures proper nutrition to reduce hunger"
+  Salary 1600
+  Skills Cooking:10 Medicine:9 Management:8
+  Uniform "Orange nutrition uniform"
+  CanRecruit true
+  BonusEffect "-25% prisoner hunger"
+  Priority 6
+END
+
+BEGIN Staff
+  ID FitnessCoach
+  Title "Fitness Coach"
+  Description "Helps prisoners stay fit and active"
+  Salary 1700
+  Skills Physical:12 Authority:9 Communication:8
+  Uniform "Red fitness uniform"
+  CanRecruit true
+  BonusEffect "-20% fatigue, +20% fitness"
+  Priority 6
+END
+
+BEGIN Staff
+  ID LeisureDirector
+  Title "Leisure Director"
+  Description "Provides recreational activities to reduce boredom"
+  Salary 1650
+  Skills Entertainment:11 Management:10 Communication:9
+  Uniform "Yellow leisure uniform"
+  CanRecruit true
+  BonusEffect "-28% boredom"
+  Priority 7
+END
+
+BEGIN Staff
+  ID SecurityPsychologist
+  Title "Security Psychologist"
+  Description "Monitors and suppresses violent tendencies"
+  Salary 1850
+  Skills Psychology:12 Security:10 Authority:9
+  Uniform "Dark blue security uniform"
+  CanRecruit true
+  BonusEffect "-25% violence, +15% security"
+  Priority 8
+END
+
+BEGIN Staff
+  ID EducationCoordinator
+  Title "Education Coordinator"
+  Description "Provides educational programs to reduce stupidity"
+  Salary 1750
+  Skills Education:12 Communication:11 Expertise:9
+  Uniform "Beige education uniform"
+  CanRecruit true
+  BonusEffect "-22% low education"
+  Priority 7
+END
+
+BEGIN Staff
+  ID SocialWorker
+  Title "Social Worker"
+  Description "Helps with loneliness and social disconnection"
+  Salary 1700
+  Skills Psychology:11 Communication:12 Expertise:8
+  Uniform "Green social uniform"
+  CanRecruit true
+  BonusEffect "-25% loneliness"
+  Priority 7
+END
+
+BEGIN Staff
+  ID MoodStabilizer
+  Title "Mood Stabilizer Specialist"
+  Description "General mood stabilization across all needs"
+  Salary 2200
+  Skills Psychology:13 Medicine:11 Authority:10
+  Uniform "Purple mood uniform"
+  CanRecruit true
+  BonusEffect "-20% all negative moods"
+  Priority 9
+END
+
+BEGIN Staff
+  ID AngerManagementOfficer
+  Title "Anger Management Officer"
+  Description "Specializes in reducing anger and aggression"
+  Salary 1800
+  Skills Psychology:11 Authority:11 Communication:9
+  Uniform "Red anger management uniform"
+  CanRecruit true
+  BonusEffect "-30% anger, -20% violence"
+  Priority 8
+END
+
+BEGIN Staff
+  ID HealthClerk
+  Title "Health Clerk"
+  Description "Manages health records and wellness"
+  Salary 1400
+  Skills Medicine:9 Management:8 Communication:7
+  Uniform "White health uniform"
+  CanRecruit true
+  BonusEffect "-15% health issues"
+  Priority 5
+END
+
+BEGIN Staff
+  ID PrisonBeautician
+  Title "Prison Beautician"
+  Description "Provides grooming services to improve morale"
+  Salary 1500
+  Skills Grooming:10 Communication:9 Management:7
+  Uniform "Pink beautician uniform"
+  CanRecruit true
+  BonusEffect "-10% appearance concerns, +10% morale"
+  Priority 5
+END
+
+BEGIN Staff
+  ID LifeCoach
+  Title "Life Coach"
+  Description "Provides life guidance and motivation"
+  Salary 1800
+  Skills Psychology:10 Communication:12 Expertise:10
+  Uniform "Silver life coach uniform"
+  CanRecruit true
+  BonusEffect "-18% despair, +15% motivation"
+  Priority 7
+END
+
+BEGIN Staff
+  ID SeniorCounselor
+  Title "Senior Counselor"
+  Description "Advanced counseling for severe emotional issues"
+  Salary 2100
+  Skills Psychology:14 Communication:12 Expertise:11
+  Uniform "Navy senior uniform"
+  CanRecruit true
+  BonusEffect "-35% all emotional needs"
+  Priority 9
+END
+
+BEGIN Staff
+  ID FamilyMediator
+  Title "Family Mediator"
+  Description "Handles family-related emotional support"
+  Salary 1750
+  Skills Psychology:11 Communication:13 Expertise:9
+  Uniform "Gold mediator uniform"
+  CanRecruit true
+  BonusEffect "-20% family-related despair"
+  Priority 7
+END
+
+BEGIN Staff
+  ID RehabilitationOfficer
+  Title "Rehabilitation Officer"
+  Description "Focuses on prisoner rehabilitation and reform"
+  Salary 1900
+  Skills Psychology:12 Authority:11 Education:10
+  Uniform "Teal rehabilitation uniform"
+  CanRecruit true
+  BonusEffect "-25% violence, -15% all needs"
+  Priority 8
+END
+
+BEGIN Staff
+  ID WellnessCoordinator
+  Title "Wellness Coordinator"
+  Description "Coordinates overall wellness programs"
+  Salary 1850
+  Skills Medicine:10 Management:11 Communication:10
+  Uniform "Cyan wellness uniform"
+  CanRecruit true
+  BonusEffect "-20% all health-related needs"
+  Priority 7
+END
+
+BEGIN Staff
+  ID ConflictResolution
+  Title "Conflict Resolution Specialist"
+  Description "Reduces prisoner conflicts and tensions"
+  Salary 1800
+  Skills Authority:12 Communication:11 Psychology:10
+  Uniform "Bronze conflict uniform"
+  CanRecruit true
+  BonusEffect "-25% violence, -20% anger"
+  Priority 8
+END
+
+BEGIN Staff
+  ID IndividualTherapist
+  Title "Individual Therapist"
+  Description "One-on-one therapy for specific needs"
+  Salary 2000
+  Skills Psychology:13 Communication:11 Expertise:10
+  Uniform "Indigo therapy uniform"
+  CanRecruit true
+  BonusEffect "-28% specific emotional needs"
+  Priority 8
+END
+
+BEGIN Staff
+  ID RecreationSpecialist
+  Title "Recreation Specialist"
+  Description "Designs and runs recreational programs"
+  Salary 1700
+  Skills Entertainment:12 Management:10 Communication:9
+  Uniform "Lime recreation uniform"
+  CanRecruit true
+  BonusEffect "-25% boredom, +20% morale"
+  Priority 7
+END
