@@ -1,0 +1,98 @@
+-- UtilitiesMod Objects Configuration
+-- Food service, power generation, laundry, and comfort facilities
+
+BEGIN Object
+    Name                IndustrialKitchen
+    Width               3
+    Height              2
+    Cost                2400
+    Description         Large kitchen facility for meal preparation
+    Category            Kitchen
+    Sprite              IndustrialKitchen
+    ConstructionTime    160
+    Power               250
+END
+
+BEGIN Object
+    Name                CommercialFryer
+    Width               2
+    Height              1
+    Cost                1600
+    Description         High-capacity deep fryer for food preparation
+    Category            Kitchen
+    Sprite              CommercialFryer
+    ConstructionTime    100
+    Power               150
+END
+
+BEGIN Object
+    Name                PowerGenerator
+    Width               2
+    Height              2
+    Cost                3300
+    Description         Diesel generator for independent power supply
+    Category            Power
+    Sprite              PowerGenerator
+    ConstructionTime    200
+    Power               -400
+END
+
+BEGIN Object
+    Name                SolarPanel
+    Width               3
+    Height              1
+    Cost                2200
+    Description         Solar panel array for renewable power
+    Category            Power
+    Sprite              SolarPanel
+    ConstructionTime    140
+    Power               -150
+END
+
+BEGIN Object
+    Name                CommercialWasher
+    Width               2
+    Height              1
+    Cost                1800
+    Description         Industrial washing machine for prisoner clothing
+    Category            Laundry
+    Sprite              CommercialWasher
+    ConstructionTime    120
+    Power               180
+END
+
+BEGIN Object
+    Name                DryingRack
+    Width               2
+    Height              1
+    Cost                800
+    Description         Clothing drying and storage rack
+    Category            Laundry
+    Sprite              DryingRack
+    ConstructionTime    60
+    Power               40
+END
+
+BEGIN Object
+    Name                EntertainmentScreen
+    Width               1
+    Height              1
+    Cost                1400
+    Description         Large screen for recreation and entertainment
+    Category            Recreation
+    Sprite              EntertainmentScreen
+    ConstructionTime    90
+    Power               120
+END
+
+BEGIN Object
+    Name                BilliardTable
+    Width               2
+    Height              2
+    Cost                1200
+    Description         Pool table for prisoner recreation
+    Category            Recreation
+    Sprite              BilliardTable
+    ConstructionTime    100
+    Power               0
+END
