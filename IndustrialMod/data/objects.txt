@@ -1,0 +1,91 @@
+BEGIN Object
+  ID CoalPowerPlant
+  Title "Coal Power Plant"
+  Description "Industrial facility that generates electricity from coal, providing power to the prison"
+  Category Utility
+  Price 8000
+  Size 6 4
+  CanBeHacked true
+  RequiredStaff Engineer
+  RequiredRole PowerPlantOperator
+  BonusEffect "+50% prison power output"
+  Priority 8
+  Tint 120 100 90
+END
+
+BEGIN Object
+  ID SteelPlant
+  Title "Steel Plant"
+  Description "Manufacturing facility where prisoners work to produce steel materials"
+  Category Workshop
+  Price 6500
+  Size 5 5
+  CanBeHacked false
+  RequiredStaff Engineer
+  RequiredRole SteelPlantManager
+  PrisonerWorkable true
+  WorkIncome 45
+  BonusEffect "+20% materials production, prisoner labor income"
+  Priority 7
+  Tint 100 100 110
+END
+
+BEGIN Object
+  ID CocaColaFactory
+  Title "Coca-Cola Factory"
+  Description "Beverage production facility operated by prisoners for profit"
+  Category Workshop
+  Price 5500
+  Size 5 4
+  CanBeHacked false
+  RequiredStaff Manager
+  RequiredRole FactoryManager
+  PrisonerWorkable true
+  WorkIncome 50
+  BonusEffect "+30% beverage production, +15% prisoner income, morale boost"
+  Priority 6
+  Tint 200 50 50
+END
+
+BEGIN Object
+  ID TrainTrack
+  Title "Train Track"
+  Description "Track for trains to transport goods, coal, and materials around prison"
+  Category Utility
+  Price 350
+  Size 1 1
+  CanBeHacked false
+  RequiredStaff Engineer
+  BonusEffect "Enables goods transport network"
+  Priority 3
+  Tint 80 80 80
+END
+
+BEGIN Object
+  ID TrainStation
+  Title "Train Station"
+  Description "Station where trains deliver goods and materials"
+  Category Utility
+  Price 3000
+  Size 3 3
+  CanBeHacked false
+  RequiredStaff Manager
+  RequiredRole TrainStationManager
+  BonusEffect "Receives deliveries from trains, +25% goods efficiency"
+  Priority 7
+  Tint 150 120 80
+END
+
+BEGIN Object
+  ID TrainCarriage
+  Title "Train Carriage"
+  Description "Cargo carriage for transporting goods between locations"
+  Category Vehicle
+  Price 2500
+  Size 2 4
+  CanBeHacked false
+  RequiredStaff Engineer
+  BonusEffect "Transports coal, steel, and goods"
+  Priority 5
+  Tint 100 80 60
+END
