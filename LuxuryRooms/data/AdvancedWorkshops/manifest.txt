@@ -1,8 +1,0 @@
-NAME AdvancedWorkshops
-DESCRIPTION Advanced workshop types with specialized equipment for different crafts
-VERSION 1.0
-AUTHOR VivekDarapu
-
--- This mod adds advanced workshops to Prison Architect
--- Includes: Woodworking, Electronics, Metalworking, and Textile workshops
--- Each workshop has specialized equipment for prisoners to use
