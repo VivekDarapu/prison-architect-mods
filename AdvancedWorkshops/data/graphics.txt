@@ -1,0 +1,41 @@
+Sprite SteelPlantGraphic
+  Image steel_plant.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite CocaColaFactoryGraphic
+  Image coca_cola_factory.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite MetalworksGraphic
+  Image metalworks.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite AdvancedLoomGraphic
+  Image advanced_loom.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite ChemicalLabGraphic
+  Image chemical_lab.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite AssemblyLineGraphic
+  Image assembly_line.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
