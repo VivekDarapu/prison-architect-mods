@@ -1,9 +1,4 @@
-Name           "Industrial Complex & Manufacturing"
-Author         "Vivek Darapu"
-Description    "Comprehensive industrial manufacturing systems including coal power plants, steel mills, and beverage production facilities for prisoner labor"
-Version        "1.0"
-GameVersion    "1.0"
-RequiredScript "base.lua"
-
--- Coal power generation, steel production, Coca-Cola manufacturing
--- Prisoner work assignments in industrial facilities
+Name "Industrial Complex & Manufacturing"
+Author "Vivek Darapu"
+Description "Comprehensive industrial manufacturing systems including coal power plants, steel mills, and beverage production facilities for prisoner labor"
+Version "1.0"
