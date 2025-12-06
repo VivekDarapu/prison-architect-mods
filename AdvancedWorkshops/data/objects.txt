@@ -1,0 +1,54 @@
+-- AdvancedWorkshops Objects Configuration
+-- Professional training spaces and vocational equipment
+
+BEGIN Object
+    Name                AdvancedWoodworkBench
+    Width               2
+    Height              2
+    Cost                1800
+    Description         Woodworking workstation for carpentry training
+    Category            Workshops
+    Sprite              AdvancedWoodworkBench
+    ConstructionTime    120
+    Power               150
+    OnConstruct         workshop_setup
+END
+
+BEGIN Object
+    Name                AdvancedElectronicsStation
+    Width               2
+    Height              2
+    Cost                2200
+    Description         Electronics and circuit training station
+    Category            Workshops
+    Sprite              ElectronicsStation
+    ConstructionTime    150
+    Power               200
+    OnConstruct         workshop_setup
+END
+
+BEGIN Object
+    Name                AdvancedMetalforge
+    Width               3
+    Height              2
+    Cost                2800
+    Description         Professional metalworking forge for trade training
+    Category            Workshops
+    Sprite              Metalforge
+    ConstructionTime    180
+    Power               250
+    OnConstruct         workshop_setup
+END
+
+BEGIN Object
+    Name                AdvancedTextileLoom
+    Width               2
+    Height              3
+    Cost                1950
+    Description         Industrial textile loom for fabric production
+    Category            Workshops
+    Sprite              TextileLoom
+    ConstructionTime    140
+    Power               180
+    OnConstruct         workshop_setup
+END
