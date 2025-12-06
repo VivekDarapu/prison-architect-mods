@@ -1,0 +1,55 @@
+Sprite TreadmillGraphic
+  Image treadmill.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite WeightRackGraphic
+  Image weight_rack.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite BenchPressGraphic
+  Image bench_press.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite YogaMatGraphic
+  Image yoga_mat.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite PullUpBarGraphic
+  Image pull_up_bar.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite StairClimberGraphic
+  Image stair_climber.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite ExerciseBikeGraphic
+  Image exercise_bike.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
+
+Sprite Locker GraphicGraphic
+  Image locker.png
+  Width 64
+  Height 64
+  PaletteSwap yes
+END
