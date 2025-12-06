@@ -1,0 +1,135 @@
+-- PrisonRoles Staff Configuration
+-- Staff entities for prison roles
+
+BEGIN Staff
+    ID                 Priest
+    Title              "Priest/Chaplain"
+    Description        "Spiritual counselor for prisoner rehabilitation"
+    Salary             1400
+    Skills             Counseling:9 Empathy:10 DeEscalation:8
+    Uniform            "Religious vestments with chaplain cross"
+    CanRecruitFrom     "Chaplaincy"
+    SpecialRequires    "Chapel"
+    BonusEffect        "+5% prisoner morale, -8% suicide rates"
+    Priority           5
+END
+
+BEGIN Staff
+    ID                 Bodyguard
+    Title              "Bodyguard"
+    Description        "Elite protection specialist for VIPs"
+    Salary             2800
+    Skills             Combat:8 Awareness:9 Leadership:7
+    Uniform            "Black tactical gear with badge"
+    CanRecruitFrom     "Security"
+    BonusEffect        "+15% security rating in assigned area"
+    Priority           8
+END
+
+BEGIN Staff
+    ID                 MilitaryPolice
+    Title              "Military Police Officer"
+    Description        "Armed enforcement with military training"
+    Salary             2600
+    Skills             Combat:8 Tactics:7 Authority:8
+    Uniform            "Military camouflage with insignia"
+    CanRecruitFrom     "Security"
+    BonusEffect        "+20% response time to emergencies, +10% prisoner fear"
+    Priority           7
+END
+
+BEGIN Staff
+    ID                 Counselor
+    Title              "Counselor/Psychologist"
+    Description        "Mental health professional for behavior management"
+    Salary             1300
+    Skills             Psychology:10 Empathy:9 Documentation:8
+    Uniform            "Professional attire with ID badge"
+    CanRecruitFrom     "Healthcare"
+    BonusEffect        "+8% prisoner reform rate, -15% violence"
+    Priority           6
+END
+
+BEGIN Staff
+    ID                 Teacher
+    Title              "Teacher/Instructor"
+    Description        "Education professional for prisoner development"
+    Salary             1500
+    Skills             Teaching:10 SubjectExpertise:8 Patience:9
+    Uniform            "Professional educator attire"
+    CanRecruitFrom     "Education"
+    BonusEffect        "+12% prisoner education rate"
+    Priority           5
+END
+
+BEGIN Staff
+    ID                 TradeInstructor
+    Title              "Trade Instructor"
+    Description        "Specialist in vocational training"
+    Salary             1600
+    Skills             Technical:10 HandsOnTraining:9 Safety:8
+    Uniform            "Work uniform with tool belt"
+    CanRecruitFrom     "Workshops"
+    BonusEffect        "+15% prisoner skills, +8% employment success"
+    Priority           6
+END
+
+BEGIN Staff
+    ID                 MaintenanceInspector
+    Title              "Maintenance Inspector"
+    Description        "Facility maintenance specialist"
+    Salary             1200
+    Skills             Maintenance:9 Technical:8 Planning:7
+    Uniform            "Orange maintenance uniform"
+    CanRecruitFrom     "Operations"
+    BonusEffect        "-10% facility damage, +5% efficiency"
+    Priority           4
+END
+
+BEGIN Staff
+    ID                 Electrician
+    Title              "Electrician"
+    Description        "Electrical systems specialist"
+    Salary             1800
+    Skills             Electrical:10 Safety:9 ProblemSolving:8
+    Uniform            "Yellow safety vest with tools"
+    CanRecruitFrom     "Operations"
+    BonusEffect        "+8% facility reliability, -15% power failures"
+    Priority           5
+END
+
+BEGIN Staff
+    ID                 ITSpecialist
+    Title              "IT Specialist"
+    Description        "Information technology and surveillance manager"
+    Salary             2000
+    Skills             Technology:10 Security:9 Troubleshooting:8
+    Uniform            "Corporate tech attire"
+    CanRecruitFrom     "Administration"
+    BonusEffect        "+20% camera coverage, +10% security system efficiency"
+    Priority           6
+END
+
+BEGIN Staff
+    ID                 MedicalOfficer
+    Title              "Medical Officer/Doctor"
+    Description        "Primary healthcare provider"
+    Salary             2200
+    Skills             Medicine:10 Diagnosis:10 Authority:8
+    Uniform            "White medical coat with stethoscope"
+    CanRecruitFrom     "Healthcare"
+    BonusEffect        "+15% prisoner health, -20% death rate"
+    Priority           8
+END
+
+BEGIN Staff
+    ID                 Nurse
+    Title              "Nurse/Medical Assistant"
+    Description        "Support healthcare provider"
+    Salary             1100
+    Skills             Medicine:8 Caregiving:9 Efficiency:8
+    Uniform            "Blue medical scrubs"
+    CanRecruitFrom     "Healthcare"
+    BonusEffect        "+8% prisoner recovery rate"
+    Priority           5
+END
