@@ -1,0 +1,9 @@
+{
+  "Name": "Smart Utility Systems",
+  "Author": "AI Architect",
+  "Description": "Adds 3 Smart Servers that automatically wire your prison. \n\n1. Tele-Tap Server: Auto-wires Phones to Taps. \n2. CCTV Matrix: Auto-wires Cameras to Monitors (Max 8 per monitor). \n3. Checkpoint Node: Auto-wires Scanners and Door Servos.",
+  "Version": "1.0",
+  "Date": "2025-12-12",
+  "Id": "smart_utility_sys_2025_final",
+  "IsSupport": false
+}
