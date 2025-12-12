@@ -1,0 +1,57 @@
+BEGIN Object
+Name SmartPhoneServer
+Price 1500
+RenderDepth 1
+ViewType Object
+Sprite SmartPhoneServer
+Properties StaticObject, Electrical, Processor
+Research Intelligence
+ConstructionTime 5.0
+Script data/scripts/SmartPhone.lua
+BEGIN Sprite
+x 0
+y 0
+w 1
+h 1
+RotateType 0
+END
+END
+
+BEGIN Object
+Name SmartCCTVServer
+Price 2000
+RenderDepth 1
+ViewType Object
+Sprite SmartCCTVServer
+Properties StaticObject, Electrical, Processor
+Research Surveillance
+ConstructionTime 10.0
+MoveSpeedFactor 0.5
+Toughness 20.0
+Script data/scripts/SmartCCTV.lua
+BEGIN Sprite
+x 0
+y 1
+w 2
+h 1
+RotateType 0
+END
+END
+
+BEGIN Object
+Name SmartSyncNode
+Price 500
+RenderDepth 1
+ViewType Wall
+Sprite SmartSyncNode
+Properties StaticObject, Electrical
+Research Deployment
+Script data/scripts/SmartSync.lua
+BEGIN Sprite
+x 0
+y 2
+w 1
+h 1
+RotateType 0
+END
+END
